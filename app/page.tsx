@@ -14,7 +14,6 @@ import Footer from "@/components/Footer"
 import Circle from "@/components/Circle"
 import Tests from "@/components/Event"
 import Header from "@/components/Header"
-import Events from "@/components/Events"
 import Classes from "@/components/Classes"
 export default function Home() {
   return (
