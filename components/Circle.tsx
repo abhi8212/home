@@ -8,7 +8,7 @@ const circles = [
   { id: 3, logo: c, content: '123 +', type: 'Computers' },
   { id: 4, logo: c, content: '400 +', type: 'Rooms' },
 ];
-
+//thi
 const DottedCircle: React.FC = () => {
   return (
     <div className="flex justify-center items-center py-8 bg-lime-400">
