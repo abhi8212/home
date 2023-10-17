@@ -5,7 +5,6 @@ interface DropdownProps {
   name: string;
   submenus: { name: string; url: string }[];
 }
-
 const Dropdown: React.FC<DropdownProps> = ({ name, submenus }) => {
   return (
     <div className="relative group">

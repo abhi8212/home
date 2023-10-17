@@ -14,22 +14,22 @@ const data = [
 const Card = () => {
   return (
     <div>
-      <div className="w-full lg:ml-4 p-6 rounded-lg text-center">
-      <div className="my-7 justify-center text-center ">
+      <div className="lg:ml-4 p-6  text-center overflow-x-hidden">
+        <div className="my-7 justify-center text-center ">
           <h3 className="text-xl my-2">Why Choose Us</h3>
           <h1 className='text-4xl md:text-5xl text-blue-950 mb-3'>Our Core Values</h1>
           <p className='md:text-base leading-relaxed font-serif px-20'>
             Infant classroom offers strategies for building positive relationships, helping children develop self-regulation and responding to challenging behaviors.
-          </p>      
-    </div>
+          </p>
+        </div>
       </div>
       <div className="flex flex-col md:flex-row  items-center justify-center">
         {data.map(item => (
-          <div key={item.id} className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  max-w-xs mx-auto md:w-1/4 bg-white shadow-lg rounded-lg overflow-hidden mb-4">
+          <div key={item.id} className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 max-w-sm mx-auto md:w-1/4 bg-white shadow-lg rounded-lg overflow-hidden mb-4">
             {/* Image */}
             <div className="relative p-4">
               {/* Replace with your image */}
-              <Image src={item.image} alt="Profile Image" layout="responsive" width={400} height={300} />
+              <Image src={item.image} alt="Profile Image" layout="responsive" width={300} height={300} />
             </div>
 
             {/* Content */}

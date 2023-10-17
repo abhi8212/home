@@ -11,7 +11,6 @@ const images = [
   { src: d3, alt: 'd3' },
   { src: d4, alt: 'd4' },
 ];
-
 const Discover = () => {
   return (
     <div className="w-full py-8 text-center bg-yellow-50">

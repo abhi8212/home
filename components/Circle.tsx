@@ -16,13 +16,13 @@ const DottedCircle: React.FC = () => {
         {circles.map((circle) => (
           <div key={circle.id} className="flex flex-col items-center mx-4 mb-8 ">
             <div className="w-60 h-60 md:w-50 md:h-60 lg:w-60 lg:h-60 border-9 border-white  rounded-full flex items-center justify-center border-dotted border-2">
-              <Image src={circle.logo} alt="Logo" width={80} height={80}  />
+              <Image src={circle.logo} alt="Logo" width={80} height={80} />
               <div className="mt-2 text-center ">
-              <h3 className="text-lg font-bold disabeled:hover:animate-spin text-white">{circle.content}</h3>
-              <p className="text-sm text-white">{circle.type}</p>
+                <h3 className="text-lg font-bold disabeled:hover:animate-spin text-white">{circle.content}</h3>
+                <p className="text-sm text-white">{circle.type}</p>
+              </div>
             </div>
-            </div>
-            
+
           </div>
         ))}
       </div>

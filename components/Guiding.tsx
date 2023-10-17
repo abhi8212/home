@@ -12,8 +12,8 @@ const Guiding = () => {
       </div>
       <div className="w-full lg:w-1/2 lg:ml-4 p-6 rounded-lg ">
         <div className="w-full mb-4">
-        <h1 className='text-3xl md:text-4xl text-blue-900 mb-3'>
-         Guiding The Young Generation To Success.</h1>
+          <h1 className='text-3xl md:text-4xl text-blue-900 mb-3'>
+            Guiding The Young Generation To Success.</h1>
           <p className="my-7 leading-7">Operating since 1996, Kindori Kindergarten provides quality early childhood education through its three year old and four year old group kindergarten programs. Our primary focus is the wellbeing of every child. We provide our children the attention they need to grow and develop into happy, healthy people and be confident for school.</p>
         </div>
         <div className="flex flex-col lg:flex-row my-10">
@@ -28,7 +28,7 @@ const Guiding = () => {
         </div>
         <button className="bg-pink-500 hover:bg-pink-400 text-white font-bold py-2 px-4 border-b-4 border-pink-700 hover:border-blue-500 rounded-full mt-4">
           Learn More About Us
-          </button>
+        </button>
       </div>
     </div>
   );

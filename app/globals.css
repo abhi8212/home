@@ -6,6 +6,13 @@
   background-image: url('../images/hero.jpg');
   /* Other background properties like repeat, size, etc. */
 }
+.event-img{
+  background-image:url('../images/event.jpg')
+}
+.en-img{
+  background-image: url('../images/en.jpg');
+  
+}
 .flip {
   transform: rotateY(180deg);
 }
@@ -33,6 +40,8 @@ body{
   font-family: Prompt;
     font-weight: normal;
     font-style: normal;
+    margin: 0;
+    padding: 0;
 }
 p{
   font-family: fredoka one,sans-serif;
@@ -54,7 +63,14 @@ p{
 .no-tailwind { 
   all: unset; 
 } 
-
+li:hover {
+  background-color: rgb(234, 65, 19);
+  border-radius: 25px;
+}
+li{
+ color: black;
+ font-weight: 900;
+}
 
 
 
